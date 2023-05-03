@@ -47,7 +47,7 @@ header {
   margin: 0 auto;
   align-items: center;
   border-bottom: 1px solid rgba(105, 105, 105, 0.2);
-  padding: 1rem 0;
+  padding: 1rem 0.5rem;
 }
 
 .travelImg {
