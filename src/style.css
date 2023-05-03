@@ -60,6 +60,7 @@ header {
 .locationPost {
   display: flex;
   align-items: center;
+  padding-bottom: 0.2rem;
 }
 
 .locationPost i {
@@ -88,7 +89,7 @@ header {
 
 .travelPost p {
   font-style: normal;
-  font-size: 10.24px;
+  font-size: 0.8rem;
   line-height: 12px;
 }
 
