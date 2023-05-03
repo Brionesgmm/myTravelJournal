@@ -1,0 +1,101 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background: rgba(53, 188, 255, 0.5);
+}
+
+main {
+  margin: 0 auto;
+  max-width: 550px;
+  background: white;
+  padding-bottom: 1rem;
+}
+
+header {
+  background: #f55a5a;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 2.5rem;
+}
+
+.headerItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.headerItems h3 {
+  padding-left: 0.5rem;
+}
+
+.headerItems i {
+  font-size: 1.5rem;
+}
+
+.travelPost * {
+  margin: 0;
+  padding: 0;
+}
+
+.travelPost {
+  max-width: 470px;
+  height: 168px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  border-bottom: 1px solid rgba(105, 105, 105, 0.2);
+  padding: 1rem 0;
+}
+
+.travelImg {
+  object-fit: cover;
+  width: 90px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.locationPost {
+  display: flex;
+  align-items: center;
+}
+
+.locationPost i {
+  margin-right: 0.25rem;
+  color: #f55a5a;
+}
+
+.travelPost h2 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+
+.travelPost h1 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.travelPost h3 {
+  font-size: 0.6rem;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.travelPost p {
+  font-style: normal;
+  font-size: 10.24px;
+  line-height: 12px;
+}
+
+.travelInfo {
+  padding-left: 1rem;
+}
+
+main .travelPost:last-of-type {
+  border-bottom: none;
+}
